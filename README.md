@@ -63,32 +63,79 @@
 </html>
 
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
 }
 
+/*AQUI ESTILIZO EL CUERPO DE LA PAGINA*/
 body {
-    margin-top: 50px;
+    background: rgb(226, 225, 225);
+    margin: 10%; 
     position: relative;
-    margin: 10%;
+    margin-top: 20px;
+    height: 500px;
+    width: 95%;
+    margin-left: 10%
 }
 
-ul {
-    list-style: none ;
+h1 {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 0.5cm;
 }
 
-nav {
-    display: flex;
-    font-size: 17px;
-    padding: 1cm 
+p {
+    font-size: 20px;
+    padding: 0.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 2cm;
+    
 }
 
 li {
     display: inline;
-    margin: 20px
+    margin: 0.5cm;
+    font-family: 'Oswald', sans-serif;
 }
 
-#Logo {
-    width: 1.5cm;
+a {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+
+}
+
+nav {
+    background-color: rgb(7, 145, 209);
+    padding: 0.2cm;
+    height: 40px;
+    font-size: 21px;
+    margin-right: 18.6%;
+}
+
+div {
+    width: 60%;    
+    position: relative;
+    margin-top: 20px;
+    background: white;
+    width: 60%
+}
+
+aside  {
+    background: rgb(255, 124, 2);
+    width: 350px;
+    border: none;
+    margin-left:  102%;
+    position: absolute;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5cm;
+    background: black;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 18.6%;
 }
